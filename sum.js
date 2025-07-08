@@ -1,9 +1,11 @@
+// sum.js
 const http = require('http');
+const sum = require('./math');
 
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-  const result = 2 + 3;
+  const result = sum(2, 3);
   res.end(`The result of 2 + 3 is ${result}`);
 });
 
