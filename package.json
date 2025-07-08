@@ -1,0 +1,15 @@
+{
+  "name": "sample-ci-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node sum.js"
+  },
+  "author": "Rushikesh",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.0.0"
+  }
+}
